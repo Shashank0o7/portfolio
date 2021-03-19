@@ -161,6 +161,7 @@ a:hover {
   width: 40px;
   height: 5px;
   background-color: #0078ff;
+  margin-bottom:0px;
   margin: 0 auto;
 }
 
@@ -678,6 +679,8 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  height: 100%;
+  padding-right: 10px;
 }
 
 .about-mf .about-img img {
@@ -1276,4 +1279,33 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+/* .small-image{
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+} */
+#centered {
+  /* text-shadow: #0062d3; */
+  color: white;
+  /* font-weight: 600; */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  /* z-index: 99999; */
+  /* size:80px; */
+  border: white 10px solid;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.c1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.topic-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
